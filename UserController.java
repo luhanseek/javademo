@@ -12,7 +12,7 @@ public class UserController {
 
     @Reference
     private UserService userService;
-//ÕâÊÇ¸Ä±ä
+//修改
     //不能用浏览器的原始网页
     @ResponseBody
     @RequestMapping("showname")
