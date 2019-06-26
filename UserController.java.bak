@@ -12,7 +12,7 @@ public class UserController {
 
     @Reference
     private UserService userService;
-//这是改变
+
     @ResponseBody
     @RequestMapping("showname")
     public String showName(){
